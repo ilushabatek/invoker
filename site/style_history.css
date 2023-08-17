@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+p{
+    font-size: 24px;
+    color: white;
+}
+
+.navbar{
+width: 100%;
+height: 70px;
+box-shadow: 0 4px 10px rgba(255, 255, 255, .1);
+}
+
+.home{
+    font-size: 32px;
+    list-style-type: none;
+    color: #8b00ff; 
+    margin-left: 80px;
+    display: inline;
+    white-space: nowrap;
+    align-items: center;
+    transition: 0.5s;
+    
+
+
+
+}  
+.home:hover{
+color: aliceblue;
+font-size: 32px;
+display: inline;
+white-space: nowrap;
+list-style-type: none;
+margin-left: 80px;
+align-items: center;
+
+}
