@@ -14,8 +14,7 @@ h1{
   
 .invoker_img{ 
     background-color: #e77517; 
-    text-align: center; 
-    margin-left: 39%; 
+    display: inline;
      
      
 } 
@@ -80,4 +79,8 @@ transition: 0.5s;
  
 .lina { 
     text-align: center; 
+}
+
+.image {
+    text-align: center;
 }
