@@ -3,6 +3,7 @@
 body{ 
     background-color: black; 
     transition: .5s; 
+    font-family: monospace;
 } 
  
  
@@ -26,26 +27,52 @@ h1{
 } 
              /* navbar */ 
 .history{ 
-    font-size: 24px; 
-    color: #ffff00;  
-    transition: 0.5;  
+    font-size: 24px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s;
 } 
  
 .history:hover{ 
-    font-size: 24px; 
-    color: whitesmoke;  
-    border: 1px solid white;  
+    background-position: right;
 } 
  
 .stats{ 
-    font-size: 24px; 
-    color: #42aaff;   
+    font-size: 24px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s; 
 } 
+
+.stats:hover{
+    background-position: right;
+}
  
 .bild{ 
-    font-size: 24px; 
-    color: #8b00ff;   
+    font-size: 24px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s;
 }  
+
+.bild:hover{
+    background-position: right;
+}
  
 .navbar{ 
      

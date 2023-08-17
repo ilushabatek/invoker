@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: monospace;
 }
 
 p{
@@ -14,26 +15,20 @@ box-shadow: 0 4px 10px rgba(255, 255, 255, .1);
 }
 
 .home{
-    font-size: 32px;
-    list-style-type: none;
-    color: #8b00ff; 
-    margin-left: 80px;
-    display: inline;
-    white-space: nowrap;
-    align-items: center;
-    transition: 0.5s;
+    font-size: 24px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s;
     
-
 
 
 }  
 .home:hover{
-color: aliceblue;
-font-size: 32px;
-display: inline;
-white-space: nowrap;
-list-style-type: none;
-margin-left: 80px;
-align-items: center;
+    background-position: right;
 
 }
