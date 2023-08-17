@@ -1,0 +1,82 @@
+/*  body  */
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 48px;
+    color: #8b00ff;
+    display: flex;
+    text-align: center;
+}
+
+.invoker_cont{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+
+}
+
+.invoker_img{
+    text-align: center;
+    display: flex;
+}
+
+.invoker_p{
+    font-size: 24px;
+    color: #8b00ff;  
+}
+             /* navbar */
+.history{
+    font-size: 24px;
+    color: #ffff00;  
+}
+
+.stats{
+    font-size: 24px;
+    color: #42aaff;  
+}
+
+.bild{
+    font-size: 24px;
+    color: #8b00ff;  
+} 
+
+.navbar{
+    
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.navbar .container{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+
+.navbar-meny{
+list-style-type: none;
+margin-bottom: none;
+padding-left: none;
+
+}
+
+.navbar-meny li{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.navbar-meny{
+margin-right: 540px;
+
+
+}
+
+
+
+
+
