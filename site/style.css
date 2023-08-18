@@ -2,7 +2,6 @@
  
 body{ 
     background-color: black; 
-    transition: .5s; 
     font-family: monospace;
 } 
  
@@ -12,21 +11,16 @@ h1{
     color: #8b00ff; 
     display: inline; 
  }  
-  
-.invoker_img{ 
-    background-color: #e77517; 
-    display: inline;
-     
-     
-} 
  
 .invoker_p{ 
     font-size: 24px; 
     color: #8b00ff;   
     text-align: center; 
-} 
-             /* navbar */ 
-.history{ 
+}
+
+                                         /* navbar */ 
+
+ .history{ 
     font-size: 24px;
     font-family: monospace;
     color: #fff;
@@ -73,6 +67,27 @@ h1{
 .bild:hover{
     background-position: right;
 }
+
+.home{
+    font-size: 24px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    
+
+
+}  
+.home:hover{
+    background-position: right;
+
+}
  
 .navbar{ 
      
@@ -102,12 +117,17 @@ transition: 0.5s;
 .navbar-meny li{ 
     display: inline-block; 
     margin-left: 100px; 
-} 
- 
+}
+
+                                        /* content */
+
 .lina { 
     text-align: center; 
+
 }
 
 .image {
     text-align: center;
 }
+
+
